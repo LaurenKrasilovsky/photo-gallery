@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background-color: lightblue;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body {
+  background-color: tan;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 320px) {
+ img {
+   height: 100px;
+   width: 100px;
+   object-fit: cover;
+ }
+}
